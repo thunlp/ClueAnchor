@@ -17,7 +17,7 @@
 
 This repository is the official implementation of [ClueAnchor: Clue-Anchored Knowledge Reasoning Exploration and Optimization for Retrieval-Augmented Generation](https://arxiv.org/abs/2505.24388).
 
-![ClueAnchor](![ClueAnchor](/assets/method.png))
+![ClueAnchor](/assets/method.png)
 
 ## ⚙️ Requirement
 
@@ -56,11 +56,11 @@ To ensure consistency and compatibility across downstream modules, all raw data 
 
 ```json
 {
-  "id": "",           // A unique identifier for the sample (int)
-  "question": "",     // The input question (str)
-  "answer": "",       // The ground truth answer to the question (str)
-  "data_type": ""     // The dataset or task name, e.g., "NQ", "2WikiMQA", etc. (str)
-}
+  "id": "A unique identifier for the sample (int)",
+  "question": "The input question (str)",
+  "answer": "The ground truth answer to the question (str)",
+  "data_type": "The dataset or task name, e.g., 'NQ', '2WikiMQA', etc. (str)"
+}     
 ```
 
 #### (3) Construct `retrieval-augmented dataset`
