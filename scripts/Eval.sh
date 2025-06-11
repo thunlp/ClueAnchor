@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=1 python ../src/Eval/Eval.py \
+  --model_path /path/to/local/model/ \
+  --input_file /path/to/test/data/NQ.jsonl \
+  --max_tokens 500 \
+  --max_length 4096 \
+  --metric accuracy \
+  --top_n 10 \
+  --task NQ \
+  --batch_size 200 \
+  --output_path /directory/to/save/predictions/ \
+  --exp_name NQ
